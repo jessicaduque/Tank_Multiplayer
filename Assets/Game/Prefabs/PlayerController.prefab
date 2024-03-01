@@ -75,6 +75,8 @@ GameObject:
   - component: {fileID: 789176909436397531}
   - component: {fileID: 2414134538658158087}
   - component: {fileID: 2162165844189886915}
+  - component: {fileID: -1211039880777126753}
+  - component: {fileID: -4192792898745057429}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Untagged
@@ -111,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2442158108
+  GlobalObjectIdHash: 2072439585
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -164,6 +166,47 @@ MonoBehaviour:
   inputReader: {fileID: 11400000, guid: 0d68e5f5c7adbee4e9c1ab29b29e2752, type: 2}
   movementSpeed: 4
   tunningRate: 100
+--- !u!114 &-1211039880777126753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4982830163014900846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54b50bb736a82c4a8ebc1cedb6974a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretTransform: {fileID: 3762443661039122945}
+  inputReader: {fileID: 11400000, guid: 0d68e5f5c7adbee4e9c1ab29b29e2752, type: 2}
+--- !u!50 &-4192792898745057429
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4982830163014900846}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &5984932662427414198
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +278,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1841171697
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 428213639, guid: 5db53fb416edc9d41adab3b426b32d3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -319,7 +362,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1841171697
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -1401893794, guid: 5db53fb416edc9d41adab3b426b32d3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -406,7 +449,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1841171697
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -237949415, guid: 5db53fb416edc9d41adab3b426b32d3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -462,7 +505,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.765625, y: 2.0546875}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &6116922476697291643
 MonoBehaviour:
