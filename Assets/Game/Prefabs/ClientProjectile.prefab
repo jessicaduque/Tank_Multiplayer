@@ -149,49 +149,27 @@ PrefabInstance:
       addedObject: {fileID: 933653222695095732}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9071758260501860356, guid: 79df95d9f15ea4c4ca3c26a13c8613b9, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 2180629634825653858}
+      insertIndex: -1
+      addedObject: {fileID: -8831207518844721937}
   m_SourcePrefab: {fileID: 100100000, guid: 79df95d9f15ea4c4ca3c26a13c8613b9, type: 3}
 --- !u!1 &4247986296818084191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9071758260501860356, guid: 79df95d9f15ea4c4ca3c26a13c8613b9, type: 3}
   m_PrefabInstance: {fileID: 5122489525783525723}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &2180629634825653858
-CapsuleCollider2D:
+--- !u!114 &-8831207518844721937
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4247986296818084191}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.00000008940697, y: -0.013821065}
-  m_Size: {x: 0.32800412, y: 0.8003622}
-  m_Direction: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14510f0f48b11134eab1a56f1be290e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 775473491230989204, guid: a7b88e9218b925f48ba093d875be9d37, type: 3}
 --- !u!4 &6070095240283524266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1381464207804855793, guid: 79df95d9f15ea4c4ca3c26a13c8613b9, type: 3}

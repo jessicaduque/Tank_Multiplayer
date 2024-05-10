@@ -31,9 +31,16 @@ public class CoinSpawner : NetworkBehaviour
 
     private void SpawnCoin()
     {
-        RespawningCoin coinInstance = Instantiate(_coinPrefab, GetSpawnPoint(), Quaternion.identity).GetComponent<RespawningCoin>();
+        RespawningCoin coinInstance = Instantiate(_coinPrefab, GetSpawnPoint(), Quaternion.identity);
         coinInstance.SetValue(_coinValue);
         coinInstance.GetComponent<NetworkObject>().Spawn();
+        coinInstance.OnCollected += HandleCoinCollected;
+    }
+
+    private void HandleCoinCollected(RespawningCoin coin)
+    {
+        coin.transform.position = GetSpawnPoint();
+        coin.Reset();
     }
 
     private Vector2 GetSpawnPoint()

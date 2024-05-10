@@ -47,6 +47,9 @@ TagManager:
   - name: Player
     uniqueID: 2453795599
     locked: 0
+  - name: Terrain
+    uniqueID: 3308608065
+    locked: 0
   - name: Coin
     uniqueID: 1177725447
     locked: 0
