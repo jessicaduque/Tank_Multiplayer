@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 10
@@ -113,10 +113,10 @@ TextureImporter:
       name: Wall_Tileset_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 69
-        width: 21
-        height: 22
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d871ba29a3fe6f4a840cd7c3f2cacd5
-      internalID: -1127094440
+      spriteID: 1e343bfab63828e4ba2ebe65c6680c5e
+      internalID: -716430387
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Wall_Tileset_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 69
-        width: 16
-        height: 22
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f55243c54847904b9e30224b0800a57
-      internalID: 1942592945
+      spriteID: e9eafe2493dff194ba9f0db9033bb337
+      internalID: -114466808
       vertices: []
       indices: 
       edges: []
@@ -155,10 +155,10 @@ TextureImporter:
       name: Wall_Tileset_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 69
-        width: 21
-        height: 22
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcfdffc51b85b3d4a99e9d685c53c7f9
-      internalID: -1968074347
+      spriteID: 59543caaf9b89f146b43a4b91bc99f45
+      internalID: 1356279089
       vertices: []
       indices: 
       edges: []
@@ -176,10 +176,10 @@ TextureImporter:
       name: Wall_Tileset_3
       rect:
         serializedVersion: 2
-        x: 8
-        y: 40
-        width: 21
-        height: 16
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c92b82dfb3379c1458dfdf4c13076408
-      internalID: -731256537
+      spriteID: 057ddabe7b86b6742810e2bfdc22deca
+      internalID: 1377340776
       vertices: []
       indices: 
       edges: []
@@ -197,10 +197,10 @@ TextureImporter:
       name: Wall_Tileset_4
       rect:
         serializedVersion: 2
-        x: 40
-        y: 37
-        width: 16
-        height: 22
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfdf9ff8c088a07428e859e4b7a67bf8
-      internalID: 2090029601
+      spriteID: aabe18ee44a5ae6479afc19c6896dc78
+      internalID: -640842781
       vertices: []
       indices: 
       edges: []
@@ -218,10 +218,10 @@ TextureImporter:
       name: Wall_Tileset_5
       rect:
         serializedVersion: 2
-        x: 66
-        y: 40
-        width: 21
-        height: 16
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e5a66b0fe6bfe649b361b85956e65ac
-      internalID: -818925545
+      spriteID: 183d84747a2d5354d9e8d46fe4ec5b22
+      internalID: 1704389117
       vertices: []
       indices: 
       edges: []
@@ -239,10 +239,10 @@ TextureImporter:
       name: Wall_Tileset_6
       rect:
         serializedVersion: 2
-        x: 8
-        y: 8
-        width: 21
-        height: 16
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9edcf75a3a9bc4dbc4135399e528ee
-      internalID: 1305232027
+      spriteID: 6a397dd03971ee447bc472a2e02a04ef
+      internalID: 531598872
       vertices: []
       indices: 
       edges: []
@@ -260,10 +260,10 @@ TextureImporter:
       name: Wall_Tileset_7
       rect:
         serializedVersion: 2
-        x: 40
-        y: 5
-        width: 16
-        height: 22
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56e54a033b55db488b686ab815e9d09
-      internalID: 1222579321
+      spriteID: a87f3e9d3199f4f469c0c8093d0541c6
+      internalID: 1971073052
       vertices: []
       indices: 
       edges: []
@@ -281,10 +281,10 @@ TextureImporter:
       name: Wall_Tileset_8
       rect:
         serializedVersion: 2
-        x: 66
-        y: 8
-        width: 21
-        height: 16
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2860e5f29907df43a562168d9725b4b
-      internalID: -878129135
+      spriteID: acc10cbb7d43b6f4bb9938e0465f242c
+      internalID: -1920551482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c988efec404504695d4eff581e299f
+      internalID: 535076918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ebc90afb4d69045986abb0910731ad
+      internalID: 605197353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c88806eb9823c94699b480778ce6203
+      internalID: 1713842735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8208b6e64657ef84390fde6268d39d1c
+      internalID: 1381334309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159d1878a116ef449b90c0f3273cf430
+      internalID: 1458780168
       vertices: []
       indices: 
       edges: []
@@ -309,15 +414,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall_Tileset_0: -1127094440
-      Wall_Tileset_1: 1942592945
-      Wall_Tileset_2: -1968074347
-      Wall_Tileset_3: -731256537
-      Wall_Tileset_4: 2090029601
-      Wall_Tileset_5: -818925545
-      Wall_Tileset_6: 1305232027
-      Wall_Tileset_7: 1222579321
-      Wall_Tileset_8: -878129135
+      Wall_Tileset_0: -716430387
+      Wall_Tileset_1: -114466808
+      Wall_Tileset_10: 605197353
+      Wall_Tileset_11: 1713842735
+      Wall_Tileset_12: 1381334309
+      Wall_Tileset_13: 1458780168
+      Wall_Tileset_2: 1356279089
+      Wall_Tileset_3: 1377340776
+      Wall_Tileset_4: -640842781
+      Wall_Tileset_5: 1704389117
+      Wall_Tileset_6: 531598872
+      Wall_Tileset_7: 1971073052
+      Wall_Tileset_8: -1920551482
+      Wall_Tileset_9: 535076918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
