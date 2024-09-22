@@ -14,6 +14,7 @@ public class PlayerMovement : NetworkBehaviour
     [SerializeField] private float tunningRate = 100f;
 
     Camera _mainCamera;
+    Canvas _healthCanvas;
     Vector2 previousMovementInput;
 
     private void Awake()
@@ -21,6 +22,7 @@ public class PlayerMovement : NetworkBehaviour
         bodyTransform = GetComponent<Transform>();
         thisRb = GetComponent<Rigidbody2D>();
         _mainCamera = Camera.main;
+        _healthCanvas = GetComponentInChildren<Canvas>();
     }
 
 
@@ -32,7 +34,7 @@ public class PlayerMovement : NetworkBehaviour
         }
         
         inputReader.MoveEvent += ControlMovement;
-
+        _healthCanvas.transform.SetParent(null);
     }
 
     public override void OnNetworkDespawn()
@@ -64,6 +66,7 @@ public class PlayerMovement : NetworkBehaviour
         }
 
         thisRb.velocity = (Vector2)bodyTransform.up * previousMovementInput.y * movementSpeed;
+        _healthCanvas.transform.position = new Vector3(this.transform.position.x, transform.position.y, 0);
         _mainCamera.transform.position = new Vector3(this.transform.position.x, transform.position.y, -10);
     }
 

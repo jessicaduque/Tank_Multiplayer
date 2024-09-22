@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2855748934963602322}
   - component: {fileID: 4340504029549289316}
-  - component: {fileID: 1913742305738318007}
+  - component: {fileID: 3546025514943434837}
   m_Layer: 5
   m_Name: OverheadCanvas
   m_TagString: Untagged
@@ -61,7 +61,7 @@ Canvas:
   m_SortingLayerID: -1841171697
   m_SortingOrder: 3
   m_TargetDisplay: 0
---- !u!114 &1913742305738318007
+--- !u!114 &3546025514943434837
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

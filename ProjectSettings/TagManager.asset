@@ -44,12 +44,12 @@ TagManager:
   - name: Background
     uniqueID: 2627208801
     locked: 0
+  - name: Coin
+    uniqueID: 1177725447
+    locked: 0
   - name: Player
     uniqueID: 2453795599
     locked: 0
   - name: OnTerrain
     uniqueID: 3308608065
-    locked: 0
-  - name: Coin
-    uniqueID: 1177725447
     locked: 0
