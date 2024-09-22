@@ -47,7 +47,7 @@ TagManager:
   - name: Player
     uniqueID: 2453795599
     locked: 0
-  - name: Terrain
+  - name: OnTerrain
     uniqueID: 3308608065
     locked: 0
   - name: Coin
