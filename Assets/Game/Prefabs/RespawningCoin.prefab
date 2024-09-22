@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: -7793574306935601041, guid: 23491643b68ec3449be105da25ac1d89, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1611360087, guid: 7244ace1f4fcfb2458791c315928698a, type: 3}
+      objectReference: {fileID: -1313841114, guid: f7c0cab688b2fde43b582e550eb59649, type: 3}
     - target: {fileID: 2823207110370266324, guid: 23491643b68ec3449be105da25ac1d89, type: 3}
       propertyPath: m_Name
       value: RespawningCoin

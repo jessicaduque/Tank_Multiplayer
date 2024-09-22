@@ -13,12 +13,14 @@ public class PlayerMovement : NetworkBehaviour
     [SerializeField] private float movementSpeed = 4f;
     [SerializeField] private float tunningRate = 100f;
 
+    Camera _mainCamera;
     Vector2 previousMovementInput;
 
     private void Awake()
     {
         bodyTransform = GetComponent<Transform>();
         thisRb = GetComponent<Rigidbody2D>();
+        _mainCamera = Camera.main;
     }
 
 
@@ -62,7 +64,7 @@ public class PlayerMovement : NetworkBehaviour
         }
 
         thisRb.velocity = (Vector2)bodyTransform.up * previousMovementInput.y * movementSpeed;
-
+        _mainCamera.transform.position = new Vector3(this.transform.position.x, transform.position.y, -10);
     }
 
     #region Movement

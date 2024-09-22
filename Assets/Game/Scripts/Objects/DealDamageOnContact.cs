@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DealDamageOnContact : MonoBehaviour
 {
-    [SerializeField] private int _damage = 5;
+    [SerializeField] private int _damage = 15;
     private ulong _ownerClientId;
 
     public void SetOwner(ulong ownerId)
