@@ -517,7 +517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputReader: {fileID: 11400000, guid: 0d68e5f5c7adbee4e9c1ab29b29e2752, type: 2}
   movementSpeed: 8
-  tunningRate: 100
+  tunningRate: 200
 --- !u!114 &-1211039880777126753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: dec8eacd00f0a104caf4a2789c1d4ca6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -698,7 +698,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1841171697
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: 428213639, guid: 5db53fb416edc9d41adab3b426b32d3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -800,8 +800,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -1841171697
-  m_SortingOrder: 3
+  m_SortingLayerID: 1627234873
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &3886081731914482388
 MonoBehaviour:
@@ -904,7 +904,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1841171697
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: -1401893794, guid: 5db53fb416edc9d41adab3b426b32d3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -991,7 +991,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1841171697
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -237949415, guid: 5db53fb416edc9d41adab3b426b32d3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
