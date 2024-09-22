@@ -16,7 +16,7 @@ public class CoinSpawner : NetworkBehaviour
 
     public override void OnNetworkSpawn()
     {
-        if (!IsOwner)
+        if (!IsServer)
         {
             return;
         }

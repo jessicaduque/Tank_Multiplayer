@@ -84,6 +84,8 @@ public class ProjectileLauncher : NetworkBehaviour
         _timer = 1 / _fireRate;
     }
 
+    
+
     [ServerRpc]
     void PrimaryFireServerRpc(Vector3 spawnPos, Vector3 direction)
     {
