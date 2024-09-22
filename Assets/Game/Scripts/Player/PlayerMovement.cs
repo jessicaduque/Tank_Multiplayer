@@ -21,14 +21,16 @@ public class PlayerMovement : NetworkBehaviour
         thisRb = GetComponent<Rigidbody2D>();
     }
 
+
     public override void OnNetworkSpawn()
     {
         if (!IsOwner)
         {
             return;
         }
-
+        
         inputReader.MoveEvent += ControlMovement;
+
     }
 
     public override void OnNetworkDespawn()

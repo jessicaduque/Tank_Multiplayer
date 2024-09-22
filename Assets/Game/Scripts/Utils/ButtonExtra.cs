@@ -13,6 +13,11 @@ public class ButtonExtra : MonoBehaviour
         _thisButton.onClick.AddListener(MakeSound);
     }
 
+    private void Start()
+    {
+        _thisButton.targetGraphic.GetComponent<Image>().alphaHitTestMinimumThreshold = 0.8f;
+    }
+
     private void OnEnable()
     {
         _thisButton.interactable = true;
