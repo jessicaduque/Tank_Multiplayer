@@ -67,6 +67,10 @@ public class PlayerMovement : NetworkBehaviour
 
         thisRb.velocity = (Vector2)bodyTransform.up * previousMovementInput.y * movementSpeed;
         _healthCanvas.transform.position = new Vector3(this.transform.position.x, transform.position.y, 0);
+    }
+
+    private void LateUpdate()
+    {
         _mainCamera.transform.position = new Vector3(this.transform.position.x, transform.position.y, -10);
     }
 
