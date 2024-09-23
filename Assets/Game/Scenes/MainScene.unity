@@ -2580,7 +2580,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045768251}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -8595,11 +8595,11 @@ MonoBehaviour:
   _coinPrefab: {fileID: 7793259897292551587, guid: 87f8aaed572f9e147a2add90dc4287b0, type: 3}
   _layerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295
   _maxCoins: 100
   _coinValue: 1
-  _xSpawnRange: {x: -60, y: 50}
-  _ySpawnRange: {x: 60, y: -50}
+  _xSpawnRange: {x: -60, y: 60}
+  _ySpawnRange: {x: 50, y: -50}
 --- !u!1001 &1949444776
 PrefabInstance:
   m_ObjectHideFlags: 0

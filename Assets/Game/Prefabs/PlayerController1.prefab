@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2442158108
+  GlobalObjectIdHash: 2072439585
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -800,8 +800,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -1841171697
-  m_SortingOrder: 3
+  m_SortingLayerID: -734525765
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &3886081731914482388
 MonoBehaviour:

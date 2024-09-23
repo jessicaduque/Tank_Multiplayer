@@ -21,8 +21,8 @@ public class PlayerMovement : NetworkBehaviour
     {
         bodyTransform = GetComponent<Transform>();
         thisRb = GetComponent<Rigidbody2D>();
-        _mainCamera = Camera.main;
         _healthCanvas = GetComponentInChildren<Canvas>();
+        _mainCamera = Helpers.cam;
     }
 
 
@@ -71,6 +71,11 @@ public class PlayerMovement : NetworkBehaviour
 
     private void LateUpdate()
     {
+        if (!IsOwner)
+        {
+            return;
+        }
+
         _mainCamera.transform.position = new Vector3(this.transform.position.x, transform.position.y, -10);
     }
 
