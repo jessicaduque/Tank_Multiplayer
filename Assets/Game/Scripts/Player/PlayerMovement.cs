@@ -15,7 +15,7 @@ public class PlayerMovement : NetworkBehaviour
 
     Camera _mainCamera;
     Canvas _healthCanvas;
-    Vector2 _previousMovementInput;
+    Vector2 previousMovementInput;
 
     private void Awake()
     {
@@ -54,7 +54,7 @@ public class PlayerMovement : NetworkBehaviour
             return;
         }
 
-        float zRotation = _previousMovementInput.x * -tunningRate * Time.deltaTime;
+        float zRotation = previousMovementInput.x * -tunningRate * Time.deltaTime;
         bodyTransform.Rotate(0f, 0f, zRotation);
     }
 
@@ -65,12 +65,8 @@ public class PlayerMovement : NetworkBehaviour
             return;
         }
 
-        thisRb.velocity = (Vector2)bodyTransform.up * _previousMovementInput.y * movementSpeed;
+        thisRb.velocity = (Vector2)bodyTransform.up * previousMovementInput.y * movementSpeed;
         _healthCanvas.transform.position = new Vector3(this.transform.position.x, transform.position.y, 0);
-    }
-
-    private void LateUpdate()
-    {
         _mainCamera.transform.position = new Vector3(this.transform.position.x, transform.position.y, -10);
     }
 
@@ -78,7 +74,7 @@ public class PlayerMovement : NetworkBehaviour
 
     private void ControlMovement(Vector2 movementInput)
     {
-        _previousMovementInput = movementInput;
+        previousMovementInput = movementInput;
     }
 
     #endregion

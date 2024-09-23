@@ -19,8 +19,7 @@ public class CoinWallet : NetworkBehaviour
             return;
         }
 
-        if(totalCoins.Value < 999)
-            totalCoins.Value += coinValue;
+        totalCoins.Value += coinValue;
     }
 
     public void SpendPoints(int cost)
