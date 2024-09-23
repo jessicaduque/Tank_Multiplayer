@@ -29,11 +29,14 @@ public class SpawnController : NetworkBehaviour
     public override void OnNetworkSpawn()
     {
         if (IsServer)
+        {
             SpawnPlayerServerRpc(NetworkManager.Singleton.LocalClientId, 0);
+        }
         else
+        {
             SpawnPlayerServerRpc(NetworkManager.Singleton.LocalClientId, 1);
-
-        _startPanel.SetActive(false);
+        }
+        _startPanel.GetComponent<CanvasGroup>().alpha = 0;
     }
 
     [ServerRpc(RequireOwnership = false)]
