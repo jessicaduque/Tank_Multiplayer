@@ -3,11 +3,17 @@ using UnityEngine;
 
 public class SpawnController : NetworkBehaviour
 {
-    [SerializeField] private GameObject _startPanel;
+    [SerializeField] private CanvasGroup _startPanel;
+    [SerializeField] private GameObject _HUDPanel;
     [SerializeField] private GameObject _player1Prefab; 
     [SerializeField] private GameObject _player2Prefab;
 
     public static SpawnController Singleton { get; private set; }
+
+    private void Start()
+    {
+        _HUDPanel.SetActive(false);
+    }
 
     private void OnEnable()
     {
@@ -28,6 +34,8 @@ public class SpawnController : NetworkBehaviour
     }
     public override void OnNetworkSpawn()
     {
+        _startPanel.GetComponent<CanvasGroup>().alpha = 0;
+        _HUDPanel.SetActive(true);
         if (IsServer)
         {
             SpawnPlayerServerRpc(NetworkManager.Singleton.LocalClientId, 0);
@@ -36,7 +44,6 @@ public class SpawnController : NetworkBehaviour
         {
             SpawnPlayerServerRpc(NetworkManager.Singleton.LocalClientId, 1);
         }
-        _startPanel.GetComponent<CanvasGroup>().alpha = 0;
     }
 
     [ServerRpc(RequireOwnership = false)]
