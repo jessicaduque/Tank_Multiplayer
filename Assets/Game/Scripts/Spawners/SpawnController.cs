@@ -12,7 +12,6 @@ public class SpawnController : NetworkBehaviour
 
     private void Start()
     {
-        _HUDPanel.SetActive(false);
     }
 
     private void OnEnable()
